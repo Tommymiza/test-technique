@@ -70,6 +70,7 @@ function App() {
             <input
               type="checkbox"
               name={`checkbox-${index}`}
+              max={50}
               checked={todo.completed}
               onChange={(e) => {
                 toggleTodo(index);
