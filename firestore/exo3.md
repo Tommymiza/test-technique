@@ -19,4 +19,4 @@ Il faut créer un index sur :
 ## 3e question justification:
 
 -Efficacité : on évite de charger tous les messages pour chaque conversation.
--Scalable : la collection messages peut contenir des millions d’entrées, mais seule la métadonnée lastMessage dans conversations est interrogée.
+-Scalable : la collection messages peut contenir des millions d’entrées, mais seule la métadonnée lastMessage dans conversations est interrogée. Ainsi avec cette structure, tout peut fonctionner comme message de groupe ou seulement entre deux personnes, grâce à la table conversation et le champ participants
